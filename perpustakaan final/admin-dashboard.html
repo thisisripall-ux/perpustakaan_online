@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Perpustakaan Online</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <div>
+                    <h1>📚 Perpustakaan Online</h1>
+                    <p>Panel Administrator - Kelola Buku & Peminjaman</p>
+                </div>
+                <div class="user-info">
+                    <div class="user-badge admin-badge" id="userBadge"></div>
+                    <button onclick="logout()" class="btn-danger">🚪 Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <nav class="nav-menu">
+                <a href="admin-dashboard.html" class="nav-link active">📖 Katalog Buku</a>
+                <a href="admin-books.html" class="nav-link">➕ Kelola Buku</a>
+                <a href="admin-borrowings.html" class="nav-link">📊 Semua Peminjaman</a>
+            </nav>
+
+            <div class="content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2>📖 Katalog Buku</h2>
+                    <button onclick="loadBooks()" class="btn-info">🔄 Refresh</button>
+                </div>
+                <div id="booksAlert"></div>
+                <div id="booksGrid" class="books-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/admin.js"></script>
+</body>
+</html>

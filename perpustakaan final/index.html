@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Perpustakaan Online</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <h1>📚</h1>
+            <h1>Perpustakaan Online</h1>
+            <p>Sistem Manajemen Buku Digital</p>
+        </div>
+        
+        <div id="loginAlert"></div>
+        
+        <form id="loginForm" onsubmit="login(event)">
+            <div class="form-group">
+                <label>Username</label>
+                <input type="text" id="loginUsername" placeholder="Masukkan username" required autofocus>
+            </div>
+            
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" id="loginPassword" placeholder="Masukkan password" required>
+            </div>
+            
+            <button type="submit">🔑 Login</button>
+            
+            <div class="divider">atau</div>
+            
+            <a href="register.html" class="btn btn-secondary">📝 Register Akun Baru</a>
+        </form>
+    </div>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/auth.js"></script>
+</body>
+</html>

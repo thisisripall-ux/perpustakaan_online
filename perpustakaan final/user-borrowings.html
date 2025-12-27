@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peminjaman Saya - Perpustakaan Online</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <div>
+                    <h1>📚 Perpustakaan Online</h1>
+                    <p>Panel Anggota - Pinjam & Kembalikan Buku</p>
+                </div>
+                <div class="user-info">
+                    <div class="user-badge" id="userBadge"></div>
+                    <button onclick="logout()" class="btn-danger">🚪 Logout</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <nav class="nav-menu">
+                <a href="user-dashboard.html" class="nav-link">📖 Katalog Buku</a>
+                <a href="user-borrowings.html" class="nav-link active">📚 Peminjaman Saya</a>
+            </nav>
+
+            <div class="content">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h2>📚 Peminjaman Saya</h2>
+                    <button onclick="loadMyBorrowings()" class="btn-info">🔄 Refresh</button>
+                </div>
+                <div id="borrowingsAlert"></div>
+                <div id="borrowingsTable"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/user.js"></script>
+</body>
+</html>
