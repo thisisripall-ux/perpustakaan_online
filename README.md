@@ -45,31 +45,38 @@ perpustakaan.
 
 <ol>
   <li>
-    <strong>Admin Login</strong>
+    <strong>Admin Login/Register</strong>
     <ul>
-      <li>Admin masuk ke sistem menggunakan <em>username</em> dan <em>password</em>.</li>
+      <li>Admin bisa masuk ke sistem menggunakan <em>username</em> dan <em>password</em> atau register akun dan menganti role menjadi admin pada database.</li>
     </ul>
   </li>
 
   <li>
     <strong>Pengelolaan Data</strong>
     <ul>
-      <li>Admin mengelola data buku dan pengguna melalui dashboard web.</li>
+      <li>Admin mengelola data buku melalui dashboard web.</li>
     </ul>
   </li>
-
+  
+<li>
+    <strong>Penguna Login/Register</strong>
+    <ul>
+      <li>Pengguna masuk ke sistem menggunakan <em>username</em> dan <em>password</em> atau register akun.</li>
+    </ul>
+  </li>
+  
   <li>
     <strong>Peminjaman Buku</strong>
     <ul>
       <li>Pengguna meminjam buku yang tersedia.</li>
-      <li>Sistem mencatat tanggal peminjaman dan status buku.</li>
+      <li>Sistem otomatis mencatat tanggal peminjaman dan status buku.</li>
     </ul>
   </li>
 
   <li>
     <strong>Pengembalian Buku</strong>
     <ul>
-      <li>Buku otomatis menjadi tersedia kembali.</li>
+      <li>Pengguna mengembalikan Buku dan otomatis tersedia kembali.</li>
     </ul>
   </li>
 
