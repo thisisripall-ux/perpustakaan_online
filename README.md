@@ -69,7 +69,7 @@ perpustakaan.
   <li>
     <strong>Pengembalian Buku</strong>
     <ul>
-      <li>Admin mengubah status buku menjadi tersedia kembali.</li>
+      <li>Buku otomatis menjadi tersedia kembali.</li>
     </ul>
   </li>
 
