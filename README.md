@@ -41,6 +41,9 @@ perpustakaan.
 🌐 REST API
 </p>
 
+<h3 align="left">🔄 Alur Kerja Sistem</h3> <p align="justify"> Alur kerja aplikasi Perpustakaan Online dimulai dari proses autentikasi admin ke dalam sistem. Setelah berhasil login, admin dapat mengakses seluruh fitur manajemen yang tersedia, seperti pengelolaan data buku, data anggota, serta transaksi peminjaman dan pengembalian buku. Setiap data yang dimasukkan atau diperbarui oleh admin akan diproses oleh sistem backend dan disimpan ke dalam database MySQL. Ketika terjadi transaksi peminjaman atau pengembalian, sistem akan mencatat aktivitas tersebut secara otomatis, termasuk tanggal peminjaman, tanggal pengembalian, serta status buku. </p>
+<p align="justify">Pengguna dapat mengakses aplikasi melalui antarmuka web untuk melihat daftar buku, melakukan pencarian buku, serta memantau status peminjaman. Selain itu, data yang tersimpan di dalam sistem dapat diakses oleh aplikasi lain melalui REST API, sehingga memungkinkan integrasi dengan aplikasi mobile atau sistem eksternal lainnya. </p>
+
 <h3 align="left">⚙️ Languages and Tools:</h3>
 <p align="left">
 Frontend: <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
@@ -51,9 +54,8 @@ Server: Apache (XAMPP)
 
 <h3 align="left">🔗 Base URL API</h3>
 <p align="left">
-http://localhost/perpustakaan/index.html
+http://localhost/perpustakaan/api
 </p>
-
 <h3 align="left">🤝 Connect with me:</h3>
 <p align="left">
 <a href="https://github.com/username">GitHub</a>
