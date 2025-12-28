@@ -1,4 +1,4 @@
-<h1 align="center">📚 SELAMAT DATANG DI PERPUSTAKAAN ONLINE</h1>
+<h1 align="center">📚 SELAMAT DATANG DI APLIKASI PERPUSTAKAAN ONLINE</h1>
 <h3 align="center">Sistem Informasi Perpustakaan Berbasis Web</h3>
 
 <h3 align="left">📖 Tentang Aplikasi</h3>
@@ -41,17 +41,17 @@ perpustakaan.
 🌐 REST API
 </p>
 
-<h3 align="left">⚙️ Teknologi yang Digunakan</h3>
+<h3 align="left">⚙️ Languages and Tools:</h3>
 <p align="left">
-Frontend: HTML, CSS, JavaScript<br>
-Backend: PHP (Native)<br>
-Database: MySQL<br>
+Frontend: <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
+Backend: <p align="left"> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
+Database: <p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> </p>
 Server: Apache (XAMPP)
 </p>
 
 <h3 align="left">🔗 Base URL API</h3>
 <p align="left">
-http://localhost/perpustakaan_online/api
+http://localhost/perpustakaan/index.html
 </p>
 
 <h3 align="left">🤝 Connect with me:</h3>
