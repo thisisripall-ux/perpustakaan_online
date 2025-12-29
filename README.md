@@ -528,7 +528,6 @@ http://localhost/perpustakaan/api
   "message": "No borrowings found",
 }</code></pre>
 
-<h2 align="left">🤝 Connect with me:</h2>
-<p align="left">
-<a href="https://github.com/username">GitHub</a>
-</p>
+
+<h1 align="center">📖 POSTER APLIKASI PERPUSTAKAAN ONLINE</h1>
+<img width="1587" height="2245" alt="Image" src="https://github.com/user-attachments/assets/3529c33f-4ff5-4248-95a9-1393275f7588" />
